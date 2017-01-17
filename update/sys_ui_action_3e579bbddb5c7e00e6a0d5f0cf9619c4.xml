@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Send for Feedback</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments>Sets the value of the project status to "Feedback Requested"</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint>Sets the value of the project status to "Feedback Requested"</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Send for Feedback</name>
+        <onclick/>
+        <order>200</order>
+        <script><![CDATA[(function executeUIAction(current, previous) {
+
+	var gr = new GlideRecord("x_bp3g_go_live_ann_project_member");
+	gr.addQuery("project", current.sys_id);
+	gr.query();
+
+	var requestedMembersCount = 0;
+
+	while(gr.next()) {
+		if (gr.request_feedback == true) {
+			requestedMembersCount++;
+		}
+	}
+	gs.addInfoMessage("requestedMembersCount = " + requestedMembersCount);	
+
+	if (requestedMembersCount ==0) {
+		gs.addErrorMessage('You have not added any team members to the project yet or have not requested feedback from any of them. Please add team members and then click Send Feedback'); 
+	}	
+	else {
+		current.u_string_1 = "Feedback Requested";
+		current.update();
+		gs.addInfoMessage('Sent the current project for feedback to team members.');
+
+		// update the feedback status of the child tables to Feedback Requested	
+		var grForUpdate = new GlideRecord("x_bp3g_go_live_ann_project_member");
+		var qc = grForUpdate.addQuery("project", current.sys_id);
+		qc.addCondition("request_feedback", 'true');
+		grForUpdate.query();	
+		grForUpdate.setValue('u_string_1',  'Feedback Requested');
+		grForUpdate.updateMultiple();
+		/*		
+		var childCount = 0;
+		while (grForUpdate.next()) {
+			childCount ++;
+			var grUpdate = new GlideRecord('x_bp3g_go_live_ann_project_member');
+			grUpdate.get(grForUpdate.sys_id);
+			grUpdate.feedback_status = 'Feedback Requested';
+			grUpdate.update();
+		}	
+
+		gs.addInfoMessage("Child Count =" + childCount);
+		*/
+}	
+	action.setRedirectURL(current);
+}(current, typeof previous != 'undefined' ?  previous : null));]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-14 18:32:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e579bbddb5c7e00e6a0d5f0cf9619c4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Send for Feedback</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sys_ui_action_3e579bbddb5c7e00e6a0d5f0cf9619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-17 20:00:52</sys_updated_on>
+        <table>x_bp3g_go_live_ann_project</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

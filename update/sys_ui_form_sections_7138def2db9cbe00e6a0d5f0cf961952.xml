@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7138def2db9cbe00e6a0d5f0cf961952" sys_domain="global" table="x_bp3g_go_live_ann_project" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 16:26:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f538def2db9cbe00e6a0d5f0cf961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_go_live_ann_project" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961952</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 16:26:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 16:26:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7938def2db9cbe00e6a0d5f0cf961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_go_live_ann_project" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961952</sys_ui_form>
+            <sys_ui_section caption="Personal Touch" display_value="Personal Touch" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">b538def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 16:26:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 16:26:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e38def2db9cbe00e6a0d5f0cf961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_go_live_ann_project" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961952</sys_ui_form>
+            <sys_ui_section caption="Final Email" display_value="Final Email" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">f938def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 16:26:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_bp3g_go_live_ann_project</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 16:26:44</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7138def2db9cbe00e6a0d5f0cf961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bp3g_go_live_ann_project</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7138def2db9cbe00e6a0d5f0cf961952</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 16:26:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="ReviewFeedback" name="ReviewFeedback">10e75ef2db9cbe00e6a0d5f0cf9619c3</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

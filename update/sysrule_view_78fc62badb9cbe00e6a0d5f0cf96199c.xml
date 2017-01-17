@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Project View Rule old</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[gs.addInfoMessage("Info message beyond outside the overridView");
+var gURI = new ScopedGlideURI();
+var sysID = gURI.get('sys_id'); 
+
+var rec = new GlideRecord('x_bp3g_go_live_ann_project'); 
+rec.addQuery('sys_id', sysID);
+rec.query();   // Issue the query to the database to get relevant records
+while (rec.next()) { 
+  gs.addInfoMessage("Project Name" + rec.title);
+  gs.info("Project Name" + rec.title);
+  gs.addInfoMessage("Project Sys ID" + rec.sys_id);
+  gs.addInfoMessage("Project Status" + rec.u_string_1);
+	if (rec.u_string_1 === "Went Live" ) {
+		answer = "RequestFeedback";
+	}
+	if (rec.u_string_1 === "Feedback Requested" ) {
+		answer = "RequestFeedback";
+	}
+	else {
+		answer = "Default_view";
+	}
+	gs.addInfoMessage("answer = " + answer);
+	
+}
+
+
+
+(function overrideView(view, is_list) {
+   
+	/*
+	
+	if (current.u_string_1 == "Went Live" ) {
+		answer = "RequestFeedback";
+	}
+	if (current.u_string_1 == "Feedback Requested" ) {
+		answer = "RequestFeedback";
+	}
+	else {
+		answer = "Default_view";
+	}*/
+		
+// var rec = new GlideRecord('x_bp3g_go_live_ann_project'); 
+
+//var k = current.sys_id;
+
+// gs.debug("Prashant - This is a debug log");
+var gURI = new ScopedGlideURI();
+var sysID = gURI.get('sys_id'); 
+gs.debug("Prashant - Current System ID = " + sysID);
+gs.addInfoMessage("Prashant - Current System ID = " + sysID);
+	
+answer = "";
+		
+// gs.addInfoMessage("Querying for Project Sys ID" + g_uri.get('sys_id'));
+	
+// rec.addQuery('sys_id', g_uri.get('sys_id'));
+// rec.query();   // Issue the query to the database to get relevant records
+// while (rec.next()) { 
+//   gs.info("Project Name" + rec.name);
+//   gs.info("Project Sys ID" + rec.sys_id);
+//   gs.info("Project Status" + rec.u_string_1);
+// }
+	
+})(view, is_list);
+
+/*	
+if (gr.get(g_uri.get('sys_id'))) {  
+     if (!gs.getUser().hasRoles())   
+          g_uri.set('sysparm_view', 'ess');  
+     else  
+          g_uri.set('sysparm_view', '');  
+}  
+  
+  
+answer =  g_uri.toString('hr_case.do');  	
+*/
+	
+/*	
+	// Add your code here
+	if (current.project_status === "Review Feedback") {
+		answer = "Review Feedback View";  // set the new view to answer
+	}
+	else if (current.project_status === "Request Feedback") {
+	answer = "Request Feedback View";  // set the new view to answer
+	}
+	else {
+		answer = "Default view";  // set the new view to answer
+	}
+	
+})(view, is_list);
+*/]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-17 17:57:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78fc62badb9cbe00e6a0d5f0cf96199c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Project View Rule old</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sysrule_view_78fc62badb9cbe00e6a0d5f0cf96199c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-17 17:57:36</sys_updated_on>
+        <table>x_bp3g_go_live_ann_project</table>
+        <view/>
+    </sysrule_view>
+</record_update>

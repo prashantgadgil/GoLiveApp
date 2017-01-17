@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Project" max_length="40" name="x_bp3g_go_live_ann_project" sizeclass="2" type="collection">
+        <element label="Anticipated Challenges" max_length="65536" name="anticipated_challenges" type="translated_html"/>
+        <element label="Business Case" max_length="65536" name="business_case" type="translated_html"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element label="Company Profile" max_length="65536" name="company_profile" type="translated_html"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="x_bp3g_go_live_ann_customer" type="reference"/>
+        <element label="Go Live Date" mandatory="true" max_length="40" name="go_live_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Industry" max_length="40" name="industry" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element label="Noteworthy Assumptions" max_length="65536" name="noteworthy_assumptions" type="translated_html"/>
+        <element label="Noteworthy Deliverables" max_length="65536" name="noteworthy_deliverables" type="translated_html"/>
+        <element label="SOW Date" max_length="40" name="sow_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element label="Another Release Planned" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Include Names for Highlights" max_length="40" name="u_boolean_3" type="boolean"/>
+        <element label="Release on Schedule" max_length="40" name="u_boolean_5" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="Overall Project Budget" max_length="15" name="u_currency_1" type="currency"/>
+        <element attributes="omit_sys_original=true" label="BP3 Budget" max_length="15" name="u_currency_2" type="currency"/>
+        <element label="Final Email Content" max_length="65536" name="u_html_1" read_only="true" type="html"/>
+        <element label="Business Need Personal Touch" max_length="65536" name="u_html_2" type="html"/>
+        <element label="Footer Personal Touch" max_length="65536" name="u_html_3" type="html"/>
+        <element label="Release Summary" max_length="65536" name="u_html_4" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Started" label="Project Status" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element label="Started" sequence="0" value="Started"/>
+                <element label="Went Live" sequence="1" value="Went Live"/>
+                <element label="Feedback Requested" sequence="2" value="Feedback Requested"/>
+                <element label="Feedback Completed" sequence="3" value="Feedback Completed"/>
+                <element label="Final Review" sequence="4" value="Final Review"/>
+                <element label="Announcement Sent" sequence="5" value="Announcement Sent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Fixed Fee" label="Fee Structure" mandatory="true" max_length="40" name="u_string_3" type="string">
+            <choice>
+                <element label="Fixed Fee" sequence="0" value="Fixed Fee"/>
+                <element label="T &amp; M" sequence="1" value="T &amp; M"/>
+            </choice>
+        </element>
+        <element label="Value Proposition" max_length="65536" name="value_proposition" type="translated_html"/>
+        <element label="Why Brazos Not Used" max_length="65536" name="why_brazos_not_used" type="translated_html"/>
+    </element>
+</database>

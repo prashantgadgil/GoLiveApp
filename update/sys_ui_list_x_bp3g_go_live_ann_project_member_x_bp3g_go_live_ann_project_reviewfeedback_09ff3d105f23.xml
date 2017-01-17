@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="x_bp3g_go_live_ann_project" relationship="" sys_domain="09ff3d105f231000b12e3572f2b4775d" table="x_bp3g_go_live_ann_project_member" version="2" view="ReviewFeedback">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_bp3g_go_live_ann_project_member</name>
+            <parent>x_bp3g_go_live_ann_project</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-17 19:41:30</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!#/!!!/</sys_domain_path>
+            <sys_id>8bc48fb2dbdcbe00e6a0d5f0cf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_bp3g_go_live_ann_project_member</sys_name>
+            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_update_name>sys_ui_list_x_bp3g_go_live_ann_project_member_x_bp3g_go_live_ann_project_ReviewFeedback_09ff3d105f23</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-17 19:41:30</sys_updated_on>
+            <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>
+            <view display_value="ReviewFeedback" name="ReviewFeedback">10e75ef2db9cbe00e6a0d5f0cf9619c3</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

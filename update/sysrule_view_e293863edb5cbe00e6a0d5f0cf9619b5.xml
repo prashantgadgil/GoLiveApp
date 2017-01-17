@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Project View Rule</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+   
+// gs.addInfoMessage("Info message beyond outside the overridView");
+var gURI = new ScopedGlideURI();
+var sysID = gURI.get('sys_id'); 
+
+var rec = new GlideRecord('x_bp3g_go_live_ann_project'); 
+rec.addQuery('sys_id', sysID);
+rec.query();   // Issue the query to the database to get relevant records
+while (rec.next()) { 
+//   gs.addInfoMessage("Project Name" + rec.title);
+  gs.info("Project Name" + rec.title);
+//   gs.addInfoMessage("Project Sys ID" + rec.sys_id);
+//   gs.addInfoMessage("Project Status" + rec.u_string_1);
+	if (rec.u_string_1 == "Went Live" ) {
+		answer = "RequestFeedback";
+	}
+	else if (rec.u_string_1 == "Feedback Requested" ) {
+		answer = "RequestFeedback";
+	}
+	else if (rec.u_string_1 == "Feedback Completed" ) {
+		answer = "ReviewFeedback";
+	}
+	else {
+		answer = "Default_view";
+	}
+	gs.addInfoMessage("Requested View = " + answer);
+	gs.debug("answer = " + answer);
+}
+	
+
+})(view, is_list);
+]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-17 14:59:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e293863edb5cbe00e6a0d5f0cf9619b5</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Project View Rule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sysrule_view_e293863edb5cbe00e6a0d5f0cf9619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-17 18:04:50</sys_updated_on>
+        <table>x_bp3g_go_live_ann_project</table>
+        <view/>
+    </sysrule_view>
+</record_update>

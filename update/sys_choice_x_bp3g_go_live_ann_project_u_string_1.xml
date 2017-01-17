@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_1" table="x_bp3g_go_live_ann_project" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Started</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70c7f275db5c7e00e6a0d5f0cf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+            <value>Started</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Went Live</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fcc7f275db5c7e00e6a0d5f0cf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+            <value>Went Live</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feedback Requested</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8c7f275db5c7e00e6a0d5f0cf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+            <value>Feedback Requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feedback Completed</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74c7f275db5c7e00e6a0d5f0cf96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+            <value>Feedback Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Final Review</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30c7f275db5c7e00e6a0d5f0cf961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+            <value>Final Review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Announcement Sent</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8c7f275db5c7e00e6a0d5f0cf961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+            <value>Announcement Sent</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <name>x_bp3g_go_live_ann_project</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-14 16:10:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f8c7f275db5c7e00e6a0d5f0cf96190d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_string_1</sys_name>
+            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_go_live_ann_project_u_string_1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-14 16:10:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

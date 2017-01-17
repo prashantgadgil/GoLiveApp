@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Show Request Feedback View</action_name>
+        <active>false</active>
+        <client>false</client>
+        <comments>This button will switch the view to different view than what you are seeing now.</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <hint>Want a different view of the project?</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Show Request Feedback View old</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[current.update();
+gs.debug("Prashant - UI Action debug");
+gs.addInfoMessage("Prashant - Add Info Message");
+
+action.setRedirectURL("x_bp3g_go_live_ann_project.do?sys_id=" + current.sys_id + "&sysparm_view=RequestFeedback&sysparm_view_forced=true");]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-14 15:18:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e3baa31db5c7e00e6a0d5f0cf9619d7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Show Request Feedback View old</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sys_ui_action_1e3baa31db5c7e00e6a0d5f0cf9619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-17 18:08:50</sys_updated_on>
+        <table>x_bp3g_go_live_ann_project</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>
