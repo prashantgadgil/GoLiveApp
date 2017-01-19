@@ -6,7 +6,7 @@
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
         <element label="Company Profile" max_length="65536" name="company_profile" type="translated_html"/>
         <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
-        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="x_bp3g_go_live_ann_customer" type="reference"/>
+        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="x_bp3g_go_live_ann_customer" reference_cascade_rule="cascade" type="reference"/>
         <element label="Go Live Date" mandatory="true" max_length="40" name="go_live_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Industry" max_length="40" name="industry" type="string"/>
         <element attributes="pdf_cell_type=image" label="Logo" max_length="40" name="logo" type="user_image"/>
