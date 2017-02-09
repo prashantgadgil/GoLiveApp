@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>symbol</name>
+        <rest_message_function display_value="get">c2fbb929dbf87600e6a0d5f0cf9619fa</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-07 13:43:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>942cbd29dbf87600e6a0d5f0cf961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>symbol</sys_name>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_942cbd29dbf87600e6a0d5f0cf961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-07 13:43:11</sys_updated_on>
+        <type>string</type>
+        <value>NOW</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

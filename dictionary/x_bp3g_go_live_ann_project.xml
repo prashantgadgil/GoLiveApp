@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Project" max_length="40" name="x_bp3g_go_live_ann_project" sizeclass="2" type="collection">
+    <element attributes="hasLabels=true" extends="task" label="Project" max_length="40" name="x_bp3g_go_live_ann_project" sizeclass="15" type="collection">
         <element label="Anticipated Challenges" max_length="65536" name="anticipated_challenges" type="translated_html"/>
         <element label="Business Case" max_length="65536" name="business_case" type="translated_html"/>
         <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>

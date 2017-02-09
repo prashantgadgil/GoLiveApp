@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Customer Import WebService" language="en" table="x_bp3g_go_live_ann_customer_import_webse">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Customer Import WebService</label>
+            <language>en</language>
+            <name>x_bp3g_go_live_ann_customer_import_webse</name>
+            <plural>Customer Import WebServices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-09 02:59:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6e0c7186dbb4b600e6a0d5f0cf961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer Import WebService</sys_name>
+            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_go_live_ann_customer_import_webse__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-09 02:59:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

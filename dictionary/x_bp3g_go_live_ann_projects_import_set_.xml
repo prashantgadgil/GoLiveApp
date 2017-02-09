@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Projects Import Set " max_length="40" name="x_bp3g_go_live_ann_projects_import_set_" type="collection">
+        <element attributes="import_attribute_name=BP3 Budget,edge_encryption_enabled=true" label="BP3 Budget" max_length="40" name="u_bp3_budget" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Customer,edge_encryption_enabled=true" label="Customer" max_length="40" name="u_customer" type="string"/>
+        <element attributes="import_attribute_name=Go Live Date,edge_encryption_enabled=true" label="Go Live Date" max_length="40" name="u_go_live_date" type="string"/>
+        <element attributes="import_attribute_name=Industry,edge_encryption_enabled=true" label="Industry" max_length="40" name="u_industry" type="string"/>
+        <element attributes="import_attribute_name=Project Title,edge_encryption_enabled=true" label="Project Title" max_length="40" name="u_project_title" type="string"/>
+        <element attributes="import_attribute_name=SOW Date,edge_encryption_enabled=true" label="SOW Date" max_length="40" name="u_sow_date" type="string"/>
+        <element attributes="import_attribute_name=Total Overall Budget,edge_encryption_enabled=true" label="Total Overall Budget" max_length="40" name="u_total_overall_budget" type="string"/>
+    </element>
+</database>

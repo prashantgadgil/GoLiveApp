@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description>Hello World Processor</description>
+        <interactive>false</interactive>
+        <name>Hello World Processor</name>
+        <parameters/>
+        <params_endpoint/>
+        <path>Hello</path>
+        <path_endpoint>x_bp3g_go_live_ann_Hello</path_endpoint>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[(function process(g_request, g_response, g_processor) {
+
+	var name = g_request.getParameter("name");
+	g_processor.writeOutput("text/plain", "Hello " + name);
+	// Add your code here
+
+})(g_request, g_response, g_processor);]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-19 22:11:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9df93167dbd8fe00e6a0d5f0cf961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hello World Processor</sys_name>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sys_processor_9df93167dbd8fe00e6a0d5f0cf961940</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-19 22:11:25</sys_updated_on>
+        <type>script</type>
+    </sys_processor>
+</record_update>

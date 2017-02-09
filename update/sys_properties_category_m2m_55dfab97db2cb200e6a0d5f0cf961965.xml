@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Go_Live_Category">3cbfab97db2cb200e6a0d5f0cf9619a8</category>
+        <order>1</order>
+        <property display_value="x_bp3g_go_live_ann.Email.To.Address" name="x_bp3g_go_live_ann.Email.To.Address">299d2f57db2cb200e6a0d5f0cf961904</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-31 22:22:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>55dfab97db2cb200e6a0d5f0cf961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_bp3g_go_live_ann.Email.To.Address.Go_Live_Category</sys_name>
+        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_55dfab97db2cb200e6a0d5f0cf961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-31 22:22:10</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

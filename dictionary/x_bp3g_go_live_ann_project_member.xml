@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Project Member" max_length="40" name="x_bp3g_go_live_ann_project_member" sizeclass="3" type="collection">
+    <element extends="task" label="Project Member" max_length="40" name="x_bp3g_go_live_ann_project_member" sizeclass="1" type="collection">
         <element label="Include Feedback in Email" max_length="40" name="include_feedback_in_email" type="boolean"/>
         <element label="Member" mandatory="true" max_length="32" name="member" reference="sys_user" type="reference"/>
         <element label="Project" mandatory="true" max_length="32" name="project" reference="x_bp3g_go_live_ann_project" reference_cascade_rule="cascade" type="reference"/>
