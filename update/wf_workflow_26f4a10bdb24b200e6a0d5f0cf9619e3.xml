@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{"78bdc8bbdbe0f200e6a0d5f0cf9619b3":{"stageId":"78bdc8bbdbe0f200e6a0d5f0cf9619b3","order":100,"duration":"","name":"Stage 1","value":"Stage 1"},"f4bdc8bbdbe0f200e6a0d5f0cf9619b3":{"stageId":"f4bdc8bbdbe0f200e6a0d5f0cf9619b3","order":100,"duration":"","name":"Stage 3","value":"Stage 3"}},"activities":{"7cbdc8bbdbe0f200e6a0d5f0cf9619b5":"78bdc8bbdbe0f200e6a0d5f0cf9619b3","3cbdc8bbdbe0f200e6a0d5f0cf9619b3":"f4bdc8bbdbe0f200e6a0d5f0cf9619b3","34bdc8bbdbe0f200e6a0d5f0cf9619b7":"78bdc8bbdbe0f200e6a0d5f0cf9619b3"},"ends":["3cbdc8bbdbe0f200e6a0d5f0cf9619b7"]}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{"85e87c9adbb8b600e6a0d5f0cf961996":{"stageId":"85e87c9adbb8b600e6a0d5f0cf961996","duration":"","order":100,"name":"Stage 1","value":"Stage 1"},"09e87c9adbb8b600e6a0d5f0cf961996":{"stageId":"09e87c9adbb8b600e6a0d5f0cf961996","duration":"","order":100,"name":"Stage 3","value":"Stage 3"}},"activities":{"09e87c9adbb8b600e6a0d5f0cf961997":"09e87c9adbb8b600e6a0d5f0cf961996","c9e87c9adbb8b600e6a0d5f0cf961996":"85e87c9adbb8b600e6a0d5f0cf961996","c1e8bc9adbb8b600e6a0d5f0cf961992":"85e87c9adbb8b600e6a0d5f0cf961996"},"ends":["01e8bc9adbb8b600e6a0d5f0cf961992"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>This is a test workflow to test MID Orchestration</description>
-        <expected_sequences>38bdc8bbdbe0f200e6a0d5f0cf9619b5,7cbdc8bbdbe0f200e6a0d5f0cf9619b5,3cbdc8bbdbe0f200e6a0d5f0cf9619b3,34bdc8bbdbe0f200e6a0d5f0cf9619b7,3cbdc8bbdbe0f200e6a0d5f0cf9619b7</expected_sequences>
+        <expected_sequences>c1e87c9adbb8b600e6a0d5f0cf961997,c1e8bc9adbb8b600e6a0d5f0cf961992,09e87c9adbb8b600e6a0d5f0cf961997,c9e87c9adbb8b600e6a0d5f0cf961996,01e8bc9adbb8b600e6a0d5f0cf961992</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>38bdc8bbdbe0f200e6a0d5f0cf9619b5,7cbdc8bbdbe0f200e6a0d5f0cf9619b5,3cbdc8bbdbe0f200e6a0d5f0cf9619b3,34bdc8bbdbe0f200e6a0d5f0cf9619b7,3cbdc8bbdbe0f200e6a0d5f0cf9619b7</full_sequences>
+        <full_sequences>c1e87c9adbb8b600e6a0d5f0cf961997,c1e8bc9adbb8b600e6a0d5f0cf961992,09e87c9adbb8b600e6a0d5f0cf961997,c9e87c9adbb8b600e6a0d5f0cf961996,01e8bc9adbb8b600e6a0d5f0cf961992</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Go Live MID Orchestration Example</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">38bdc8bbdbe0f200e6a0d5f0cf9619b5</start>
+        <start display_value="Begin">c1e87c9adbb8b600e6a0d5f0cf961997</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>7cbdc8bbdbe0f200e6a0d5f0cf9619b2</sys_id>
+        <sys_created_on>2017-02-09 16:44:39</sys_created_on>
+        <sys_id>3ce87c9adbb8b600e6a0d5f0cf961995</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:44:12</sys_updated_on>
+        <sys_updated_on>2017-02-13 17:01:28</sys_updated_on>
         <table>x_bp3g_go_live_ann_project</table>
         <timezone/>
         <validated>true</validated>
@@ -48,17 +48,17 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-30 17:37:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26f4a10bdb24b200e6a0d5f0cf9619e3</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Go Live MID Orchestration Example</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
         <sys_update_name>wf_workflow_26f4a10bdb24b200e6a0d5f0cf9619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-02-01 15:19:58</sys_updated_on>
@@ -71,39 +71,39 @@
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>78bdc8bbdbe0f200e6a0d5f0cf9619b3</sys_id>
+        <sys_created_on>2017-02-09 16:44:39</sys_created_on>
+        <sys_id>85e87c9adbb8b600e6a0d5f0cf961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:39</sys_updated_on>
         <value>Stage 1</value>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Stage 2</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>74bdc8bbdbe0f200e6a0d5f0cf9619b3</sys_id>
+        <sys_created_on>2017-02-09 16:44:39</sys_created_on>
+        <sys_id>05e87c9adbb8b600e6a0d5f0cf961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:39</sys_updated_on>
         <value>Stage 2</value>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
     </wf_stage>
     <wf_stage action="INSERT_OR_UPDATE">
         <name>Stage 3</name>
         <ola>1970-01-01 00:00:00</ola>
         <order>100</order>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>f4bdc8bbdbe0f200e6a0d5f0cf9619b3</sys_id>
+        <sys_created_on>2017-02-09 16:44:39</sys_created_on>
+        <sys_id>09e87c9adbb8b600e6a0d5f0cf961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:39</sys_updated_on>
         <value>Stage 3</value>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
     </wf_stage>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -121,20 +121,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>38bdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c1e87c9adbb8b600e6a0d5f0cf961997</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c1e87c9adbb8b600e6a0d5f0cf961997"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">38bdc8bbdbe0f200e6a0d5f0cf9619b5</activity>
+        <activity display_value="Begin">c1e87c9adbb8b600e6a0d5f0cf961997</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -148,11 +149,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>b8bdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>45e87c9adbb8b600e6a0d5f0cf961997</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -170,18 +171,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>3cbdc8bbdbe0f200e6a0d5f0cf9619b7</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>01e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
         <x>512</x>
         <y>42</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=01e8bc9adbb8b600e6a0d5f0cf961992"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="REST Message">d6eb35df07b31000dada43c0d1021e90</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -196,122 +198,223 @@
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Stage 3">f4bdc8bbdbe0f200e6a0d5f0cf9619b3</stage>
+        <stage display_value="Stage 3">09e87c9adbb8b600e6a0d5f0cf961996</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>09e87c9adbb8b600e6a0d5f0cf961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:43:26</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
         <x>357</x>
         <y>419</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=09e87c9adbb8b600e6a0d5f0cf961997"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>b8bdc8bbdbe0f200e6a0d5f0cf9619b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <value>bd478c46df020100cd7da5f59bf2636f</value>
-        <variable display_value="">2cfcb5df07b31000dada43c0d1021e97</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>f4bdc8bbdbe0f200e6a0d5f0cf9619b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <value>4d678c46df020100cd7da5f59bf26399</value>
-        <variable display_value="">72fcf5df07b31000dada43c0d1021e92</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>30bdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>09e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value/>
         <variable display_value="">b4144a1307f31000dada43c0d1021ed7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>bcbdc8bbdbe0f200e6a0d5f0cf9619b3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <value>symbol=NOW</value>
-        <variable display_value="">d714ca1307f31000dada43c0d1021e41</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>34bdc8bbdbe0f200e6a0d5f0cf9619b4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>0de8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:34</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>1</value>
         <variable display_value="">9b14ca1307f31000dada43c0d1021ef6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>45e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>var price = activity.output;&#13;
+&#13;
+workflow.scratchpad.price = price;</value>
+        <variable display_value="">8f15ce1307f31000dada43c0d1021e21</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>70bdc8bbdbe0f200e6a0d5f0cf9619b4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>49e8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:43:26</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>5a260f85dbe47240e6a0d5f0cf96196f</value>
         <variable display_value="">fc158e1307f31000dada43c0d1021e5e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cbdc8bbdbe0f200e6a0d5f0cf9619b3</document_key>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>81e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>bd478c46df020100cd7da5f59bf2636f</value>
+        <variable display_value="">2cfcb5df07b31000dada43c0d1021e97</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>85e8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>symbol=NOW</value>
+        <variable display_value="">d714ca1307f31000dada43c0d1021e41</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>cde8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>4d678c46df020100cd7da5f59bf26399</value>
+        <variable display_value="">72fcf5df07b31000dada43c0d1021e92</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>81e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>bd478c46df020100cd7da5f59bf2636f</value>
+        <variable display_value="">2cfcb5df07b31000dada43c0d1021e97</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>cde8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>4d678c46df020100cd7da5f59bf26399</value>
+        <variable display_value="">72fcf5df07b31000dada43c0d1021e92</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>09e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value/>
+        <variable display_value="">b4144a1307f31000dada43c0d1021ed7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>85e8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>symbol=NOW</value>
+        <variable display_value="">d714ca1307f31000dada43c0d1021e41</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>0de8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">9b14ca1307f31000dada43c0d1021ef6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>49e8bc9adbb8b600e6a0d5f0cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>5a260f85dbe47240e6a0d5f0cf96196f</value>
+        <variable display_value="">fc158e1307f31000dada43c0d1021e5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>09e87c9adbb8b600e6a0d5f0cf961997</document_key>
         <order>700</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>7cbdc8bbdbe0f200e6a0d5f0cf9619b4</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>45e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>var price = activity.output;&#13;
 &#13;
 workflow.scratchpad.price = price;</value>
         <variable display_value="">8f15ce1307f31000dada43c0d1021e21</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get ServiceNow Stock Quote">3cbdc8bbdbe0f200e6a0d5f0cf9619b3</activity>
+        <activity display_value="Get ServiceNow Stock Quote">09e87c9adbb8b600e6a0d5f0cf961997</activity>
         <condition>activity.result != 'success'</condition>
         <condition_default display_value="Failure">1617825307f31000dada43c0d1021e57</condition_default>
         <condition_type>standard</condition_type>
@@ -325,14 +428,14 @@ workflow.scratchpad.price = price;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>74bdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c9e8bc9adbb8b600e6a0d5f0cf961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get ServiceNow Stock Quote">3cbdc8bbdbe0f200e6a0d5f0cf9619b3</activity>
+        <activity display_value="Get ServiceNow Stock Quote">09e87c9adbb8b600e6a0d5f0cf961997</activity>
         <condition>activity.result == 'success'</condition>
         <condition_default display_value="Success">3916825307f31000dada43c0d1021e0a</condition_default>
         <condition_type>standard</condition_type>
@@ -346,11 +449,11 @@ workflow.scratchpad.price = price;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>f0bdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>4de8bc9adbb8b600e6a0d5f0cf961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Log Message">396807940a0a0b5c00afd9f67d9fd7a2</activity_definition>
@@ -366,36 +469,51 @@ workflow.scratchpad.price = price;</value>
         <parent/>
         <pinned>true</pinned>
         <pinned_version/>
-        <stage display_value="Stage 1">78bdc8bbdbe0f200e6a0d5f0cf9619b3</stage>
+        <stage display_value="Stage 1">85e87c9adbb8b600e6a0d5f0cf961996</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>34bdc8bbdbe0f200e6a0d5f0cf9619b7</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c9e87c9adbb8b600e6a0d5f0cf961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
         <x>640</x>
         <y>350</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c9e87c9adbb8b600e6a0d5f0cf961996"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>34bdc8bbdbe0f200e6a0d5f0cf9619b7</document_key>
+        <document_key>c9e87c9adbb8b600e6a0d5f0cf961996</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>b4bdc8bbdbe0f200e6a0d5f0cf9619b7</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>4de87c9adbb8b600e6a0d5f0cf961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>value of food is  ${workflow.inputs.u_food}, SNOW stock price = ${workflow.scratchpad.price}</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c9e87c9adbb8b600e6a0d5f0cf961996</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>4de87c9adbb8b600e6a0d5f0cf961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>value of food is  ${workflow.inputs.u_food}, SNOW stock price = ${workflow.scratchpad.price}</value>
         <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Logging Input value">34bdc8bbdbe0f200e6a0d5f0cf9619b7</activity>
+        <activity display_value="Logging Input value">c9e87c9adbb8b600e6a0d5f0cf961996</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -409,11 +527,11 @@ workflow.scratchpad.price = price;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>78bdc8bbdbe0f200e6a0d5f0cf9619b7</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>01e87c9adbb8b600e6a0d5f0cf961997</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -429,73 +547,60 @@ workflow.scratchpad.price = price;</value>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
-        <stage display_value="Stage 1">78bdc8bbdbe0f200e6a0d5f0cf9619b3</stage>
+        <stage display_value="Stage 1">85e87c9adbb8b600e6a0d5f0cf961996</stage>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c1e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
         <x>308</x>
         <y>250</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c1e8bc9adbb8b600e6a0d5f0cf961992"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>fcbdc8bbdbe0f200e6a0d5f0cf9619b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <value>6816f79cc0a8016401c5a33be04be441</value>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</document_key>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>bcbdc8bbdbe0f200e6a0d5f0cf9619b6</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>05e8bc9adbb8b600e6a0d5f0cf961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</document_key>
-        <order>200</order>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>38bdc8bbdbe0f200e6a0d5f0cf9619b6</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>09e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <value>MID Workflow Started for ${title}</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</document_key>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>f8bdc8bbdbe0f200e6a0d5f0cf9619b6</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>41e8bc9adbb8b600e6a0d5f0cf961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>MID Workflow has started for Project  ${title}&#13;
 Food is : ${workflow.variables.u_food}&#13;
 </value>
@@ -503,35 +608,136 @@ Food is : ${workflow.variables.u_food}&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</document_key>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>45e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>8de8bc9adbb8b600e6a0d5f0cf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>MID Workflow Started for ${title}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c9e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>45e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>05e8bc9adbb8b600e6a0d5f0cf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>8de8bc9adbb8b600e6a0d5f0cf961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>MID Workflow Started for ${title}</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>41e8bc9adbb8b600e6a0d5f0cf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <value>MID Workflow has started for Project  ${title}&#13;
+Food is : ${workflow.variables.u_food}&#13;
+</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>b0bdc8bbdbe0f200e6a0d5f0cf9619b6</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>09e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>0</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7cbdc8bbdbe0f200e6a0d5f0cf9619b5</document_key>
+        <document_key>c1e8bc9adbb8b600e6a0d5f0cf961992</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>74bdc8bbdbe0f200e6a0d5f0cf9619b6</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c9e8bc9adbb8b600e6a0d5f0cf961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="MID Workflow Begin Notification">7cbdc8bbdbe0f200e6a0d5f0cf9619b5</activity>
+        <activity display_value="MID Workflow Begin Notification">c1e8bc9adbb8b600e6a0d5f0cf961992</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -545,70 +751,71 @@ Food is : ${workflow.variables.u_food}&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>70bdc8bbdbe0f200e6a0d5f0cf9619b7</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>c5e8bc9adbb8b600e6a0d5f0cf961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b8bdc8bbdbe0f200e6a0d5f0cf9619b5</condition>
-        <from display_value="Begin">38bdc8bbdbe0f200e6a0d5f0cf9619b5</from>
+        <condition display_value="Always">45e87c9adbb8b600e6a0d5f0cf961997</condition>
+        <from display_value="Begin">c1e87c9adbb8b600e6a0d5f0cf961997</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>38bd80fbdbe0f200e6a0d5f0cf9619f5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>01e8bc9adbb8b600e6a0d5f0cf961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <to display_value="MID Workflow Begin Notification">7cbdc8bbdbe0f200e6a0d5f0cf9619b5</to>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <to display_value="MID Workflow Begin Notification">c1e8bc9adbb8b600e6a0d5f0cf961992</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Failure">74bdc8bbdbe0f200e6a0d5f0cf9619b5</condition>
-        <from display_value="Get ServiceNow Stock Quote">3cbdc8bbdbe0f200e6a0d5f0cf9619b3</from>
+        <condition display_value="Success">4de8bc9adbb8b600e6a0d5f0cf961991</condition>
+        <from display_value="Get ServiceNow Stock Quote">09e87c9adbb8b600e6a0d5f0cf961997</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>3cbd80fbdbe0f200e6a0d5f0cf9619f5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>05e8bc9adbb8b600e6a0d5f0cf961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <to display_value="Logging Input value">34bdc8bbdbe0f200e6a0d5f0cf9619b7</to>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <to display_value="Logging Input value">c9e87c9adbb8b600e6a0d5f0cf961996</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">78bdc8bbdbe0f200e6a0d5f0cf9619b7</condition>
-        <from display_value="Logging Input value">34bdc8bbdbe0f200e6a0d5f0cf9619b7</from>
+        <condition display_value="Failure">c9e8bc9adbb8b600e6a0d5f0cf961991</condition>
+        <from display_value="Get ServiceNow Stock Quote">09e87c9adbb8b600e6a0d5f0cf961997</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>b4bd80fbdbe0f200e6a0d5f0cf9619f5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>81e8bc9adbb8b600e6a0d5f0cf961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <to display_value="End">3cbdc8bbdbe0f200e6a0d5f0cf9619b7</to>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <to display_value="Logging Input value">c9e87c9adbb8b600e6a0d5f0cf961996</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Success">f0bdc8bbdbe0f200e6a0d5f0cf9619b5</condition>
-        <from display_value="Get ServiceNow Stock Quote">3cbdc8bbdbe0f200e6a0d5f0cf9619b3</from>
+        <condition display_value="Always">01e87c9adbb8b600e6a0d5f0cf961997</condition>
+        <from display_value="Logging Input value">c9e87c9adbb8b600e6a0d5f0cf961996</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>b8bd80fbdbe0f200e6a0d5f0cf9619f5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>85e8bc9adbb8b600e6a0d5f0cf961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <to display_value="Logging Input value">34bdc8bbdbe0f200e6a0d5f0cf9619b7</to>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <to display_value="End">01e8bc9adbb8b600e6a0d5f0cf961992</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">70bdc8bbdbe0f200e6a0d5f0cf9619b7</condition>
-        <from display_value="MID Workflow Begin Notification">7cbdc8bbdbe0f200e6a0d5f0cf9619b5</from>
+        <condition display_value="Always">c5e8bc9adbb8b600e6a0d5f0cf961993</condition>
+        <from display_value="MID Workflow Begin Notification">c1e8bc9adbb8b600e6a0d5f0cf961992</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>bcbd80fbdbe0f200e6a0d5f0cf9619f5</sys_id>
+        <sys_created_on>2017-02-09 16:44:40</sys_created_on>
+        <sys_id>8de8bc9adbb8b600e6a0d5f0cf961993</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <to display_value="Get ServiceNow Stock Quote">3cbdc8bbdbe0f200e6a0d5f0cf9619b3</to>
+        <sys_updated_on>2017-02-09 16:44:40</sys_updated_on>
+        <to display_value="Get ServiceNow Stock Quote">09e87c9adbb8b600e6a0d5f0cf961997</to>
     </wf_transition>
     <var_dictionary action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -663,14 +870,14 @@ Food is : ${workflow.variables.u_food}&#13;
         <sys_class_name>var_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-01 14:55:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>60139323db60f200e6a0d5f0cf961929</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>food</sys_name>
-        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
         <sys_update_name>var_dictionary_60139323db60f200e6a0d5f0cf961929</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-02-01 16:54:15</sys_updated_on>
@@ -697,14 +904,14 @@ Food is : ${workflow.variables.u_food}&#13;
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-02-01 14:26:51</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>9cac476fdb20f200e6a0d5f0cf9619dd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Food Name</sys_name>
-            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
             <sys_update_name>sys_documentation_var__m_26f4a10bdb24b200e6a0d5f0cf9619e3_u_food name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-02-01 14:26:51</sys_updated_on>
@@ -724,14 +931,14 @@ Food is : ${workflow.variables.u_food}&#13;
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-02-01 14:55:16</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>ec2393afdb20f200e6a0d5f0cf961903</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>food</sys_name>
-            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
             <sys_update_name>sys_documentation_var__m_26f4a10bdb24b200e6a0d5f0cf9619e3_u_food_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-02-01 15:41:51</sys_updated_on>
@@ -744,14 +951,14 @@ Food is : ${workflow.variables.u_food}&#13;
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-01 19:11:09</sys_created_on>
-        <sys_id>bcbdc8bbdbe0f200e6a0d5f0cf9619b2</sys_id>
+        <sys_created_on>2017-02-09 16:44:39</sys_created_on>
+        <sys_id>7ce87c9adbb8b600e6a0d5f0cf961995</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-01 19:11:09</sys_updated_on>
-        <workflow_version display_value="Go Live MID Orchestration Example">7cbdc8bbdbe0f200e6a0d5f0cf9619b2</workflow_version>
+        <sys_updated_on>2017-02-09 16:44:39</sys_updated_on>
+        <workflow_version display_value="Go Live MID Orchestration Example">3ce87c9adbb8b600e6a0d5f0cf961995</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=26f4a10bdb24b200e6a0d5f0cf9619e3^sys_id!=7cbdc8bbdbe0f200e6a0d5f0cf9619b2">
+    <wf_workflow_version action="update_multiple" query="workflow=26f4a10bdb24b200e6a0d5f0cf9619e3^sys_id!=3ce87c9adbb8b600e6a0d5f0cf961995">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_rest_message_fn">
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
-        <authentication_type/>
+        <authentication_type>inherit_from_parent</authentication_type>
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
         <function_name>delete</function_name>
+        <http_method>delete</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
+        <qualified_name>Query Stock Ticker [ delete ]</qualified_name>
         <rest_endpoint>http://finance.yahoo.com/d/quotes.csv?s=${symbol}&amp;f=l1</rest_endpoint>
         <rest_message display_value="Query Stock Ticker">be9bb929dbf87600e6a0d5f0cf9619d6</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-07 13:42:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8efbb929dbf87600e6a0d5f0cf9619fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>delete</sys_name>
-        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
         <sys_update_name>sys_rest_message_fn_8efbb929dbf87600e6a0d5f0cf9619fb</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-07 13:42:18</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-02-11 21:32:39</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

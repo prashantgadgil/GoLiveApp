@@ -2,6 +2,7 @@
 <database>
     <element label="Role" max_length="40" name="x_bp3g_go_live_ann_role" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Field2" max_length="40" name="test_field" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>

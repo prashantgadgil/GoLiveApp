@@ -3,5 +3,8 @@
     <element label="Team Member" max_length="40" name="x_bp3g_go_live_ann_team_member" type="collection">
         <element display="true" label="User" mandatory="true" max_length="100" name="name" reference="sys_user" type="reference"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
     </element>
 </database>

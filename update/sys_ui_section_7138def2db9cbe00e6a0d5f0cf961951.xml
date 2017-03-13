@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-02-01 18:37:40</sys_created_on>
-            <sys_id>1a06c837dbe0f200e6a0d5f0cf96196a</sys_id>
+            <sys_created_on>2017-01-17 16:25:16</sys_created_on>
+            <sys_id>e8e75ef2db9cbe00e6a0d5f0cf9619c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-01 18:37:40</sys_updated_on>
+            <sys_updated_on>2017-01-17 16:25:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>title</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-02-01 18:37:40</sys_created_on>
-            <sys_id>9a06c837dbe0f200e6a0d5f0cf96196a</sys_id>
+            <sys_created_on>2017-01-17 16:25:16</sys_created_on>
+            <sys_id>6ce75ef2db9cbe00e6a0d5f0cf9619c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-01 18:37:40</sys_updated_on>
+            <sys_updated_on>2017-01-17 16:25:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>customer</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-02-01 18:37:40</sys_created_on>
-            <sys_id>1e06c837dbe0f200e6a0d5f0cf96196a</sys_id>
+            <sys_created_on>2017-01-17 16:25:16</sys_created_on>
+            <sys_id>ece75ef2db9cbe00e6a0d5f0cf9619c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-01 18:37:40</sys_updated_on>
+            <sys_updated_on>2017-01-17 16:25:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,41 +47,13 @@
             <element>u_string_1</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-02-01 18:37:40</sys_created_on>
-            <sys_id>9e06c837dbe0f200e6a0d5f0cf96196a</sys_id>
+            <sys_created_on>2017-01-17 16:25:16</sys_created_on>
+            <sys_id>60e75ef2db9cbe00e6a0d5f0cf9619c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-01 18:37:40</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>comments</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-02-01 18:37:40</sys_created_on>
-            <sys_id>1206c837dbe0f200e6a0d5f0cf96196b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-01 18:37:40</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-02-01 18:37:40</sys_created_on>
-            <sys_id>9206c837dbe0f200e6a0d5f0cf96196b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_go_live_ann_project" sys_domain="global" view="10e75ef2db9cbe00e6a0d5f0cf9619c3">7138def2db9cbe00e6a0d5f0cf961951</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-01 18:37:40</sys_updated_on>
+            <sys_updated_on>2017-01-17 16:25:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -92,21 +64,21 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-17 16:26:44</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_created_on>2017-01-17 16:25:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7138def2db9cbe00e6a0d5f0cf961951</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_bp3g_go_live_ann_project</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+            <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-            <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+            <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
             <sys_update_name>sys_ui_section_7138def2db9cbe00e6a0d5f0cf961951</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-17 16:26:44</sys_updated_on>
+            <sys_updated_on>2017-01-17 16:25:16</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="ReviewFeedback" name="ReviewFeedback">10e75ef2db9cbe00e6a0d5f0cf9619c3</view>

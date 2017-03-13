@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_bp3_budget" table="x_bp3g_go_live_ann_projects_import_set_">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>import_attribute_name=BP3 Budget,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
@@ -47,16 +48,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-20 18:13:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>866d42b7db103240e6a0d5f0cf96198a</sys_id>
+        <sys_id>e141860adbb4b600e6a0d5f0cf9619ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>BP3 Budget</sys_name>
-        <sys_package display_value="Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
+        <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
+        <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
         <sys_update_name>sys_dictionary_x_bp3g_go_live_ann_projects_import_set__u_bp3_budget</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-20 18:13:25</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-02-09 03:22:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
