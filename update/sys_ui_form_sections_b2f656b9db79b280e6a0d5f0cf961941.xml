@@ -29,6 +29,34 @@
             <sys_updated_by>pgadgil</sys_updated_by>
             <sys_updated_on>2017-03-30 03:21:35</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-03-30 03:23:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb775eb9db79b280e6a0d5f0cf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_go_live_ann_customer" name="x_bp3g_go_live_ann_customer" sys_domain="global" view="Default view">b2f656b9db79b280e6a0d5f0cf961941</sys_ui_form>
+            <sys_ui_section caption="admin section" display_value="admin section" name="x_bp3g_go_live_ann_customer" sys_domain="global" view="Default view">ff775eb9db79b280e6a0d5f0cf961929</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-03-30 03:23:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>pgadgil</sys_created_by>
+            <sys_created_on>2017-03-30 03:26:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>342816f9db79b280e6a0d5f0cf96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_go_live_ann_customer" name="x_bp3g_go_live_ann_customer" sys_domain="global" view="Default view">b2f656b9db79b280e6a0d5f0cf961941</sys_ui_form>
+            <sys_ui_section caption="pgadgil section 2" display_value="pgadgil section 2" name="x_bp3g_go_live_ann_customer" sys_domain="global" view="Default view">f02816f9db79b280e6a0d5f0cf961967</sys_ui_section>
+            <sys_updated_by>pgadgil</sys_updated_by>
+            <sys_updated_on>2017-03-30 03:26:38</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_bp3g_go_live_ann_customer</name>
             <roles/>
