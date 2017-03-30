@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-13 18:51:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>78e21a21db187e00e6a0d5f0cf961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_bp3g_go_live_ann_project</sys_name>

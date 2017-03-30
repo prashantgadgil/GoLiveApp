@@ -5,7 +5,6 @@
         <can_delegate>true</can_delegate>
         <description>Feedback Provider Role who provides Project Feedback</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_bp3g_go_live_ann.Feedback Provider Role</name>

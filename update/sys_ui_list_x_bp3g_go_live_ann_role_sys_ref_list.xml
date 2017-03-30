@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_string_1</element>
-            <list_id display_value="x_bp3g_go_live_ann_role" element="NULL" name="x_bp3g_go_live_ann_role" parent="NULL" relationship="NULL" sys_domain="global" view="e22a063395021200440785b530adb631">59d95ea1db187e00e6a0d5f0cf961993</list_id>
+            <list_id display_value="x_bp3g_go_live_ann_role" element="NULL" name="x_bp3g_go_live_ann_role" parent="NULL" relationship="NULL" sys_domain="global" view="20d07c09dba93a40e6a0d5f0cf9619fb">59d95ea1db187e00e6a0d5f0cf961993</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -43,7 +43,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-01-13 19:21:23</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">e22a063395021200440785b530adb631</view>
+            <view display_value="Reference List" name="sys_ref_list">20d07c09dba93a40e6a0d5f0cf9619fb</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

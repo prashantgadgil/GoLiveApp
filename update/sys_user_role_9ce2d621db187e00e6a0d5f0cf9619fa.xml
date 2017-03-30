@@ -5,7 +5,6 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>true</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_bp3g_go_live_ann.user</name>

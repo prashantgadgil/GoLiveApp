@@ -2,11 +2,11 @@
 <record_update table="sys_wizard_answer">
     <sys_wizard_answer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer>Project Member</answer>
+        <answer>Project</answer>
         <button_label/>
         <dependent_value/>
         <element/>
-        <name>Project Member</name>
+        <name>Project</name>
         <next_question/>
         <order>100</order>
         <payload_name/>
@@ -14,21 +14,21 @@
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-14 14:38:33</sys_created_on>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-03-30 03:04:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>b3a22a7ddb1c7e00e6a0d5f0cf96191e</sys_id>
+        <sys_id>e5239a75db79b280e6a0d5f0cf9619b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Project Member</sys_name>
+        <sys_name>Project</sys_name>
         <sys_package display_value="Prashant Go Live Annoucement" source="x_bp3g_go_live_ann">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Prashant Go Live Annoucement">84e2dee9dbd47e00e6a0d5f0cf9619a8</sys_scope>
-        <sys_update_name>sys_wizard_answer_b3a22a7ddb1c7e00e6a0d5f0cf96191e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-14 14:38:33</sys_updated_on>
+        <sys_update_name>sys_wizard_answer_e5239a75db79b280e6a0d5f0cf9619b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-30 03:04:51</sys_updated_on>
         <table/>
-        <target_url>x_bp3g_go_live_ann_project_member.do</target_url>
+        <target_url>x_bp3g_go_live_ann_project.do</target_url>
         <type>1</type>
     </sys_wizard_answer>
 </record_update>

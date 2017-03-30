@@ -4,7 +4,7 @@
         <description>Custoomer Table Export</description>
         <file_path>\CustomerExport\</file_path>
         <method>File on MID Server</method>
-        <mid_server display_value="prashant">5a260f85dbe47240e6a0d5f0cf96196f</mid_server>
+        <mid_server display_value="">5a260f85dbe47240e6a0d5f0cf96196f</mid_server>
         <name>Customer Export</name>
         <sys_class_name>sys_export_target</sys_class_name>
         <sys_created_by>admin</sys_created_by>
